@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tem Vaga Aí?</title>
+    <link rel="icon" href="../Imagens/Logos/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Stylesheet/style.css">
+</head>
+
+<body>
+    <div class="pagina">
+        <div class="avisos">
+            <ul>
+                <li align="center"><a href="https://covid.saude.gov.br/" target="_blank">Confira as últimas informações
+                        sobre COVID-19</a></li>
+                <li align="center"><a href="Contato.html">Clique aqui para ver os criadores do Tem Vaga Aí</a>
+                </li>
+                <li align="center"><a href="https://covid.saude.gov.br/" target="_blank">Confira as últimas informações
+                        sobre COVID-19</a></li>
+                <li align="center"><a href="Contato.html">Clique aqui para ver os criadores do Tem Vaga Aí</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="menu">
+
+            <ul>
+                <li><a class="logo"><img src="../Imagens/Logos/logogif2.gif" width="120px" height="65px"
+                            id="myfoto"></a>
+                <li><a href="../Home.html"><b>HOME</b></a>
+
+                <li class="dropdown"><a class="dropbtn"><b>Hospedagem</b></a>
+                    <div class="dropdown-content">
+                        <a href="Hospedagem_casal.html"><b>Camas de casal</b></a>
+                        <a href="Hospedagem_solteiro.html"><b>Camas de solteiro</b></a>
+                        <a href="Hospedagem_sofa_cama.html"><b>Sofás-cama</b></a>
+                        <a href="Hospedagem_redes.html"><b>Redes</b></a>
+                    </div>
+
+                <li><a href="Contato.html"><b>Contato</b></a>
+                <li id="direita"><a class="active" href="Cadastro_login.html">Cadastro/Login</a></li>
+            </ul>
+
+        </div>
+
+        <div class="cad">
+
+            <div class="container">
+
+                <a class="links" id="paracadastro"></a>
+                <a class="links" id="paralogin"></a>
+
+                <div class="content">
+                    <!--FORMULÁRIO DE LOGIN-->
+                    <div id="login">
+                        <form method="post" action="">
+                            <h1>Login</h1>
+                            <p>
+                                <label for="nome_login">Seu nome</label>
+                                <input id="nome_login" name="nome_login" required="required" type="text"
+                                    placeholder="ex. contato@htmlecsspro.com" />
+                            </p>
+
+                            <p>
+                                <label for="email_login">Seu e-mail</label>
+                                <input id="email_login" name="email_login" required="required" type="password"
+                                    placeholder="ex. senha" />
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                                <label for="manterlogado">Manter-me logado</label>
+                            </p>
+
+                            <p>
+                                <input type="submit" value="Logar" />
+                            </p>
+
+                            <p class="link">
+                                Ainda não tem conta?
+                                <a href="#paracadastro">Cadastre-se</a>
+                            </p>
+                        </form>
+                    </div>
+
+                    <!--FORMULÁRIO DE CADASTRO-->
+                    <div id="cadastro">
+                        <form method="post" action="">
+                            <h1>Cadastro</h1>
+
+                            <p>
+                                <label for="nome_cad">Seu nome</label>
+                                <input id="nome_cad" name="nome_cad" required="required" type="text"
+                                    placeholder="nome" />
+                            </p>
+
+                            <p>
+                                <label for="email_cad">Seu e-mail</label>
+                                <input id="email_cad" name="email_cad" required="required" type="email"
+                                    placeholder="contato@htmlecsspro.com" />
+                            </p>
+
+                            <p>
+                                <label for="senha_cad">Sua senha</label>
+                                <input id="senha_cad" name="senha_cad" required="required" type="password"
+                                    placeholder="ex. 1234" />
+                            </p>
+
+                            <p>
+                                <label for="estado">Selecione seu estado:</label>
+                                <select id="estado" name="estado">
+                                    <option value="volvo">Acre</option>
+                                    <option value="saab">Alagoas</option>
+                                    <option value="fiat">Amapá</option>
+                                    <option value="audi">Amazonas</option>
+                                    <option value="audi">Bahia</option>
+                                    <option value="audi">Ceará</option>
+                                    <option value="audi">Espírito Santo</option>
+                                    <option value="audi">Goiás</option>
+                                    <option value="audi">Maranhão</option>
+                                    <option value="audi">Mato Grosso</option>
+                                    <option value="audi">Mato Grosso do Sul</option>
+                                    <option value="audi">Minas Gerais</option>
+                                    <option value="audi">Pará</option>
+                                    <option value="audi">Paraíba</option>
+                                    <option value="audi">Pernambuco</option>
+                                    <option value="audi">Piauí</option>
+                                    <option value="audi">Rio de Janeiro</option>
+                                    <option value="audi">Rio Grande do Norte</option>
+                                    <option value="audi">Rio Grande do Sul</option>
+                                    <option value="audi">Rondônia</option>
+                                    <option value="audi">Roraima</option>
+                                    <option value="audi">Santa Catarina</option>
+                                    <option value="audi">São Paulo</option>
+                                    <option value="audi">Sergipe</option>
+                                    <option value="audi">Tocantins</option>
+                                    <option value="audi">Distrito Federal</option>
+                                </select>
+                            </p>
+
+                            <p>
+                                <a>Selecione seu sexo:</a>
+                                <input type="radio" name="gender" id="masc" value="masculino" />
+                                <label for="masc">Masculino</label>
+                                <input type="radio" id="feminino" name="gender" value="feminino">
+                                <label for="feminino">Feminino</label><br>
+                            </p>
+
+                            <p>
+                                <input type="submit" value="Cadastrar" />
+                            </p>
+
+                            <p class="link">
+                                Já tem conta?
+                                <a href="#paralogin"> Ir para Login </a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rodape">
+            <p style="font-size: 25px;"><b>Sobre</b></p>
+            <p><a href="Contato.html">Desenvolvedores</a></p>
+            <hr width="95%" font color="gray" noshade>
+        </div>
+
+        <div class="hej">
+            <a><b>© 2020 H & J, All rights reserved</b></a>
+        </div>
+
+    </div>
+</body>
+
+</html>
